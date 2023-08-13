@@ -26,7 +26,7 @@ optional arguments:
 ```
 
 ```
-python spectrology.py test.bmp -b 13000 -t 19000
+python3 spectrology.py test.bmp -b 13000 -t 19000
 ```
 ![spectrogram](https://solusipse.net/blog/img/posts/audio-samples/7.png)
 
