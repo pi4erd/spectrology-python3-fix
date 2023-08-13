@@ -1,6 +1,13 @@
 # spectrology
 Images to audio files with corresponding spectrograms encoder.
 
+## Dependencies
+
+Requires Pillow to run. To install, run
+```
+pip install Pillow
+```
+
 ## Usage
 
 ```
