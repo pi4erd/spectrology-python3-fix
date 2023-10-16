@@ -1,11 +1,31 @@
 # spectrology
+
 Images to audio files with corresponding spectrograms encoder.
 
 ## Dependencies
 
-Requires Pillow to run. To install, run
+You can use virtualenv module for python. Create a virtual environment:
+
+```bash
+python3 -m venv venv
+
+# For Unix-like systems
+source venv/bin/activate
+
+# For Windows
+./venv/Scripts/activate.bat
 ```
-pip install Pillow
+
+And then install dependencies using
+
+```bash
+pip install -r requirements.txt
+```
+
+Or you can install dependencies standalone:
+
+```bash
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -32,12 +52,14 @@ optional arguments:
                         Sampling rate. Default value: 44100.
 ```
 
-```
+```bash
 python3 spectrology.py test.bmp -b 13000 -t 19000
 ```
+
 ![spectrogram](https://solusipse.net/blog/img/posts/audio-samples/7.png)
 
 For more informations on this techique, see this article: https://solusipse.net/blog/post/basic-methods-of-audio-steganography-spectrograms/.
 
 ## License
+
 See `LICENSE`.
